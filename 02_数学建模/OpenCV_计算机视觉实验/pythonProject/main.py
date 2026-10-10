@@ -1,16 +1,16 @@
-# This is a sample Python script.
+"""计算机视觉实验环境与模块诊断入口."""
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import sys
 
 
-# Press the green button in the gutter to run the script.
+def system_diagnostic():
+    """检查并输出当前运行环境与核心模块配置."""
+    print("=" * 50)
+    print("OpenCV 计算机视觉实验套件 - 系统环境检测")
+    print(f"Python 解释器版本: {sys.version.split()[0]}")
+    print("实验子模块: chap2 (基础语法与IO), chap3 (数据结构与运算符)")
+    print("=" * 50)
+
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    system_diagnostic()

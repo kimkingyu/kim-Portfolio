@@ -1,3 +1,9 @@
-import os
+"""系统环境与时间基准诊断脚本."""
 
-print(f"2024-6-27")
+import os
+import time
+
+# 打印当前系统工作路径与执行时间戳
+current_dir = os.path.dirname(os.path.abspath(__file__))
+timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+print(f"[{timestamp}] System Initialized at: {current_dir}")
