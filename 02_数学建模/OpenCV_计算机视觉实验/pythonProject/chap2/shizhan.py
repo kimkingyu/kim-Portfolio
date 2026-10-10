@@ -1,0 +1,6 @@
+name=input('请输入您的姓名：')
+age=input('请输入您的年龄：')
+motto=input('请输入您的座右铭；')
+print(name)
+print(age)
+print(motto)

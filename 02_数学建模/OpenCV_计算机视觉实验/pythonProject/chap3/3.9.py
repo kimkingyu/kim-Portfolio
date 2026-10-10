@@ -1,0 +1,10 @@
+x=10
+y=3
+z=x/y
+print(z)
+z=int(z)
+print(z)
+print(int('100'))
+print(hex(100))
+print(oct(100))
+print(bin(100))
